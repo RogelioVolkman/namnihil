@@ -1,0 +1,40 @@
+{
+  "name": "namnihil",
+  "version": "1.0.0",
+  "description": "The Telegraf Markup from v4 for v3.39 (TypeScript)",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "keywords": [
+    "telegraf",
+    "minima",
+    "quos",
+    "bot"
+  ],
+  "scripts": {
+    "dev": "nodemon src/test.ts",
+    "test": "npm run build && node dist/test.js",
+    "build": "tsc -p ."
+  },
+  "author": "EdnaKuhic",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "dotenv": "^10.0.0",
+    "telegraf": "3.39",
+    "telegraf-markup4-ts": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/node": "^16.7.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RogelioVolkman/namnihil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RogelioVolkman/namnihil.git/issues"
+  }
+}
